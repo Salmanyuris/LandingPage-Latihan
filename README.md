@@ -8,11 +8,11 @@ Project ini dibuat untuk mempraktikkan konsep dasar dalam membangun sebuah halam
 
 ## 📌 Tentang Project
 
-**LandingPage-Latihan** merupakan project website sederhana yang dibuat untuk memenuhi tugas dan latihan pada materi **Dasar Pemrograman Web**.
+LandingPage-Latihan adalah project website sederhana yang dibuat untuk tugas dan latihan pada materi Dasar Pemrograman Web.
 
-Website ini berfokus pada pembuatan sebuah **landing page**, yaitu halaman utama yang dirancang untuk memberikan informasi secara singkat, jelas, dan menarik kepada pengunjung.
+Project ini berisi sebuah landing page, yaitu halaman utama website yang digunakan untuk menyampaikan informasi kepada pengunjung dengan singkat dan mudah dipahami.
 
-Melalui project ini, beberapa konsep dasar pengembangan website dipraktikkan, mulai dari membuat struktur halaman, mengatur tampilan, menyusun layout, hingga membuat halaman yang dapat ditampilkan dengan baik pada browser.
+Dalam project ini, saya belajar beberapa dasar pembuatan website, seperti membuat struktur halaman, mengatur tampilan, menyusun posisi elemen, dan membuat website agar dapat ditampilkan dengan baik di browser.
 
 ---
 
