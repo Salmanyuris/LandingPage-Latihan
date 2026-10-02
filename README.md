@@ -1,8 +1,7 @@
 # 🌐 LandingPage-Latihan
 
-Website **Landing Page** sederhana yang dibuat sebagai bagian dari latihan dan tugas dasar pemrograman web.
+Website **Landing Page** sederhana yang dibuat sebagai bagian dari latihan dan tugas dasar pemrograman web. Project ini bertujuan untuk mempraktikkan konsep dasar pengembangan website menggunakan teknologi frontend seperti **HTML dan CSS**, mulai dari menyusun struktur halaman, mengatur tata letak, hingga membuat tampilan website yang sederhana dan responsif.
 
-Project ini dibuat untuk mempraktikkan konsep dasar dalam membangun sebuah halaman website menggunakan teknologi frontend seperti **HTML dan CSS**.
 
 ---
 
