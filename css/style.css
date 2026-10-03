@@ -1,216 +1,435 @@
-* {
-    padding:0;
-    margin:0;
-    font-family: sans-serif;
+/* =========================================
+   RESET & BASE
+   ========================================= */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+body {
+    font-family: sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
 a {
     color: inherit;
     text-decoration: none;
 }
-.medsos {
-    padding:5px 0;
+
+ul {
+    list-style: none;
+}
+
+/* =========================================
+   LAYOUT
+   ========================================= */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* =========================================
+   TOP BAR (Sosial Media)
+   ========================================= */
+.topbar {
+    padding: 5px 0;
     background-color: rgb(41, 36, 36);
 }
-.medsos ul li {
-    display:inline-block;
+
+.topbar-list {
+    display: flex;
+    gap: 13px;
+}
+
+.topbar-list li a {
     color: #fff;
-    margin-right: 13px;
 }
-.container {
-    width:80%;
-    margin:0 auto;
+
+.topbar-list li a:hover {
+    opacity: 0.75;
 }
-.container:after {
-    content:"";
-    display:block;
-    clear:both;
+
+/* =========================================
+   HEADER & NAVIGASI
+   ========================================= */
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 header h1 {
-    float:left;
-    padding:15px 0px;
-    color:rgb(41, 36, 36);
+    padding: 15px 0;
+    color: rgb(41, 36, 36);
+    font-size: 1.5rem;
 }
-header ul { 
-    float:right
+
+.nav-list {
+    display: flex;
 }
-header ul li {
-    display:inline-block;
+
+.nav-list li a {
+    padding: 25px 20px;
+    display: inline-block;
+    transition: background-color 0.2s, color 0.2s;
 }
-header ul li a {
-    padding:25px 20px;
-    display:inline-block;
+
+.nav-list li a:hover,
+.nav-list li.active a {
+    background-color: rgb(41, 36, 36);
+    color: #fff;
 }
-header ul li a:hover {
-    background-color:rgb(41, 36, 36) ;
-    color:#fff;
+
+/* =========================================
+   BREADCRUMB
+   ========================================= */
+.breadcrumb {
+    padding: 8px 0;
+    background-color: rgb(41, 36, 36);
+    color: #fff;
+    font-size: 0.875rem;
 }
-.active {
-    background-color:rgb(41, 36, 36) ;
-    color:#fff;
-}
+
+/* =========================================
+   BANNER
+   ========================================= */
 .banner {
     height: 60vh;
     background-image: url('../img/banner.png');
     background-size: cover;
+    background-position: center;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.banner:after {
-    content:'';
-    display:inline-block;
+
+.banner::after {
+    content: '';
     position: absolute;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-    background-color:rgba(41, 36, 36, .6) ;
+    inset: 0;
+    background-color: rgba(41, 36, 36, 0.6);
 }
+
 .banner h2 {
-    color:#fff;
-    z-index:1;
-    padding:20px 25px;
-    font-size: 50px;
-    text-shadow:rgb(41, 36, 36) ;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 20px 25px;
 }
+
+/* =========================================
+   SECTION BASE
+   ========================================= */
 section {
-    padding:50px 0px;
+    padding: 60px 0;
 }
+
 section h3 {
     text-align: center;
-    padding:20px 0px;
+    padding: 0 0 20px;
     margin-bottom: 20px;
-    color:rgb(41, 36, 36) ; 
-    
+    color: rgb(41, 36, 36);
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
-.about,
-.schedule {
-    padding-bottom: 100px;
-    
+
+/* =========================================
+   ABOUT
+   ========================================= */
+.about {
+    padding-bottom: 80px;
 }
-.about p{
-    color:#666;
+
+.about p {
+    color: #666;
     word-spacing: 4px;
-    line-height: 25px;
-    padding:20px;
+    line-height: 1.8;
     font-style: italic;
     text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
 }
+
+.education {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.education h3 {
+    margin-bottom: 16px;
+}
+
+.education-list {
+    display: inline-block;
+    text-align: left;
+}
+
+.education-list li {
+    padding: 6px 0;
+    color: #555;
+    border-bottom: 1px solid #eee;
+}
+
+.education-list li:last-child {
+    border-bottom: none;
+}
+
+/* =========================================
+   SCHEDULE
+   ========================================= */
 .schedule {
     background-color: #f9f9f9;
+    padding-bottom: 80px;
 }
-.tabel {
-    font-family:sans-serif;
-    color:black;
-    border-color:black;
+
+.table-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.schedule-table {
     width: 60%;
-    border:10px solid #0000;
-    margin-top: 70px;
+    border-collapse: collapse;
+    font-family: sans-serif;
+}
 
-}
-.tabel tr th {
-    background: #b9b7b7a2;
-    color:#000;
-    font-weight: normal;
-    font-style:normal;
-}
-.tabel th td{
-    padding:10px 20px;
+.schedule-table th,
+.schedule-table td {
+    padding: 12px 20px;
     text-align: center;
-    border-bottom: black;
+    border: 1px solid #ddd;
 }
-footer {
-    padding:30px 0;
-    background-color: #333;
-    text-align: center;
-    color:#fff;  
+
+.schedule-table thead th {
+    background-color: rgba(185, 183, 183, 0.63);
+    color: #000;
+    font-weight: 600;
 }
-.label {
-    background-color:rgb(41, 36, 36)  ;
-    color: #fff;
+
+.schedule-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
 }
+
+/* =========================================
+   SERVICE (Theory)
+   ========================================= */
 .service {
-    background-color:#e2e2e267 ;
+    background-color: rgba(226, 226, 226, 0.4);
 }
-.box {
-    color:rgb(41, 36, 36);
 
-}
-.box:after {
-    content:'';
+.box::after {
+    content: '';
     display: block;
     clear: both;
+}
 
-}
 .box .col-4 {
-    width:25%;
-    padding:20px;
-    box-sizing: border-box;
-    text-align: center ;
-    float:left
+    width: 25%;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: rgb(41, 36, 36);
 }
+
+.box .col-4 h4 {
+    margin: 20px 0 0;
+}
+
 .icon {
     width: 70px;
     height: 70px;
-    text-align:center;
     line-height: 70px;
     text-align: center;
-    margin:0 auto;
-}
-.box .col-4 h4 {
-    margin:20px 0;
-
-}
-.contact-box {
-    width: 661px;
-    top: 2426px;
-    left: 160px;
+    margin: 0 auto;
+    font-size: 1.75rem;
 }
 
-form {
-    margin: 40px 0;
+/* =========================================
+   SOCIAL MEDIA
+   ========================================= */
+.social-media {
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 10px;
+}
+
+.social-icons img {
+    width: 48px;
+    height: 48px;
+    transition: transform 0.2s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.15);
+}
+
+/* =========================================
+   CONTACT
+   ========================================= */
+.contact .box .col-4 {
+    color: #333;
+}
+
+.contact .box .col-4 h4 {
+    margin-bottom: 8px;
+    color: rgb(41, 36, 36);
+}
+
+.contact .box .col-4 p {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.contact .box .col-4 a {
+    color: #0056d2;
+}
+
+.contact .box .col-4 a:hover {
+    text-decoration: underline;
+}
+
+.map-wrapper {
+    margin-top: 40px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.map-wrapper iframe {
+    display: block;
+    width: 100%;
+}
+
+/* =========================================
+   LOGIN
+   ========================================= */
+.login {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+}
+
+.login-form {
+    max-width: 500px;
+    margin: 30px auto 0;
+}
+
+.form-group {
+    margin-bottom: 16px;
 }
 
 .input-field {
-    width: 500px;
-    height: 59px;
-    margin-top: 20px;
-    padding: 1em 2em;
-    border: 3px solid rgb(29, 26, 26);
+    width: 100%;
+    height: 52px;
+    padding: 0.75em 1.5em;
+    border: 2px solid rgb(29, 26, 26);
     border-radius: 20px;
     outline: none;
-    
+    font-size: 1rem;
+    transition: border-color 0.2s;
 }
 
-#message {
-    height: 200px;
+.input-field:focus {
+    border-color: rgb(80, 70, 70);
 }
 
-#submit {
-    background: rgb(16, 20, 231);
+.btn-submit {
+    background-color: rgb(16, 20, 231);
     color: #f1f0f5;
     border: 0;
+    cursor: pointer;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    transition: background-color 0.2s;
 }
-@media screen and (max-width:768px){
+
+.btn-submit:hover {
+    background-color: rgb(10, 14, 180);
+}
+
+/* =========================================
+   FOOTER
+   ========================================= */
+footer {
+    padding: 30px 0;
+    background-color: #333;
+    text-align: center;
+    color: #fff;
+}
+
+/* =========================================
+   RESPONSIVE
+   ========================================= */
+@media screen and (max-width: 768px) {
     .container {
-        width:90%;
+        width: 90%;
     }
+
+    header .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
     header h1 {
         text-align: center;
-        float: none;
+        width: 100%;
     }
-    header ul {
-        text-align: center;
-        float:none
+
+    .nav-list {
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
     }
+
+    .nav-list li a {
+        padding: 12px 14px;
+    }
+
+    .banner h2 {
+        font-size: 1.5rem;
+    }
+
+    .box .col-4 {
+        width: 50%;
+        float: left;
+        margin-bottom: 20px;
+    }
+
+    .schedule-table {
+        width: 100%;
+    }
+
+    .login-form {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
     .box .col-4 {
         width: 100%;
         float: none;
-        margin-bottom: 20px;
     }
 }
-
-    
-
