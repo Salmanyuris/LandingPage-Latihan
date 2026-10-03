@@ -1,89 +1,95 @@
-<html> 
+<!DOCTYPE html>
+<html lang="id">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initiale-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio Salman Yuris Adila Azzami - Mahasiswa Sistem Informasi Universitas Dian Nuswantoro Semarang.">
     <title>Portofolio | Salman Yuris</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 </head>
 <body>
 
-    <!-- header -->
-    <div class="medsos">
+    <!-- Top Bar Sosial Media -->
+    <div class="topbar">
         <div class="container">
-            <ul>
-                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <ul class="topbar-list">
+                <li><a href="https://www.facebook.com/SALMANYURIS/?ref=pages_you_manage" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UCE_itBvqq4bWp6QGJeRzypw" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a></li>
+                <li><a href="https://www.instagram.com/yazxal_/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
             </ul>
         </div>
     </div>
+
+    <!-- Navigasi -->
     <header>
         <div class="container">
             <h1><a href="index.html">Salman|Hub</a></h1>
-            <ul>
-                <li class="active"><a href="index.html">HOME</a></li>
-                <li><a href="about.html">ABOUT</a></li>
-                <li><a href="schedule.html">SCHEDULE</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
-            </ul>
+            <nav>
+                <ul class="nav-list">
+                    <li class="active"><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="schedule.html">SCHEDULE</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
 
-    <!--banner-->
+    <!-- Banner -->
     <section class="banner">
-        <h2>SALMAN YURIS ADILA AZZAMI</h2><br>
+        <h2>SALMAN YURIS ADILA AZZAMI</h2>
     </section>
 
-    <!--about-->
+    <!-- About -->
     <section class="about">
         <div class="container">
             <h3>ABOUT</h3>
-            <p>Hallo, everyone! My name is <strong>Salman Yuris Adila Azzami</strong>, and I'm from Tegal, Central Java. I am currently enrolled in Dian Nuswantoro University in Semarang. I enrolled in the Faculty of Computer Science's Information Systems Study Program.
-                <strong>Dian Nuswantoro University</strong> is Central Java's best private university, with an A+ rating. The computer science department at this university is well-known. This university is situated in the heart of Semarang's metropolis.</p>
+            <p>
+                Hallo, everyone! My name is <strong>Salman Yuris Adila Azzami</strong>, and I'm from Tegal, Central Java.
+                I am currently enrolled in Dian Nuswantoro University in Semarang, in the Faculty of Computer Science's
+                Information Systems Study Program. <strong>Dian Nuswantoro University</strong> is Central Java's best
+                private university, with an A+ rating.
+            </p>
         </div>
     </section>
 
-    <!--schedule-->
+    <!-- Schedule -->
     <section class="schedule">
         <div class="container">
             <h3>SCHEDULE</h3>
-            <center>
-            <table class="tabel">
-                <tr>
-                    <th>HARI</th>
-                    <th>MATKUL</th>
-                </tr>
-                    
-                <tr>
-                    <td>SENIN</td>
-                    <td>MANAGEMEN BUSSINES</td>
-
-                </tr>
-
-                <tr>
-                    <td>SELASA</td>
-                    <td>DASAR AKUNTANSI - DASAR KOMPUTASI</td>
-
-                </tr>
-
-                <tr>
-                    <td>RABU</td>
-                    <td>B.INGGRIS - KI - KONSEP SISTEM INFORMASI</td>
-
-                </tr>
-
-                <tr>
-                    <td>JUM'AT</td>
-                    <td>KALKULUS</td>
-
-                </tr>
-            </table>
-            </center>
+            <div class="table-wrapper">
+                <table class="schedule-table">
+                    <thead>
+                        <tr>
+                            <th>HARI</th>
+                            <th>MATA KULIAH</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>SENIN</td>
+                            <td>MANAJEMEN BISNIS</td>
+                        </tr>
+                        <tr>
+                            <td>SELASA</td>
+                            <td>DASAR AKUNTANSI - DASAR KOMPUTASI</td>
+                        </tr>
+                        <tr>
+                            <td>RABU</td>
+                            <td>B. INGGRIS - KI - KONSEP SISTEM INFORMASI</td>
+                        </tr>
+                        <tr>
+                            <td>JUM'AT</td>
+                            <td>KALKULUS</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
     </section>
 
-    <!--service-->
+    <!-- Theory / Skills -->
     <section class="service">
         <div class="container">
             <h3>THEORY</h3>
@@ -91,40 +97,45 @@
                 <div class="col-4">
                     <div class="icon"><i class="fas fa-globe"></i></div>
                     <h4>HTML</h4>
-                 </div>
-                 <div class="col-4">
+                </div>
+                <div class="col-4">
                     <div class="icon"><i class="fas fa-mobile"></i></div>
                     <h4>CSS</h4>
-                 </div>
-                 <div class="col-4">
+                </div>
+                <div class="col-4">
                     <div class="icon"><i class="fas fa-edit"></i></div>
                     <h4>JAVASCRIPT</h4>
-                 </div>
-                 <div class="col-4">
+                </div>
+                <div class="col-4">
                     <div class="icon"><i class="fas fa-chart-bar"></i></div>
                     <h4>PHP</h4>
-                 </div>
+                </div>
             </div>
         </div>
-    </section> 
+    </section>
 
-    <!--medsos1-->
-    <section class="medsos1">
-        <center>
+    <!-- Sosial Media -->
+    <section class="social-media">
         <div class="container">
-            <div class="col-3">
             <h3>MEDIA SOSIAL</h3>
-            <a href="https://www.youtube.com/channel/UCE_itBvqq4bWp6QGJeRzypw" target="_blank"><img src="img/yt.svg" alt="youtube" id="youtube"></a>
-             <a href="https://www.facebook.com/SALMANYURIS/?ref=pages_you_manage" target="_blank"><img src="img/fb.svg" alt="facebook" id="facebook"></a>
-             <a href="https://www.instagram.com/yazxal_/" taget="_blank"><img src="img/ig.svg" alt="instagram" id="instagram"></a>
-             </div>
+            <div class="social-icons">
+                <a href="https://www.youtube.com/channel/UCE_itBvqq4bWp6QGJeRzypw" target="_blank" aria-label="YouTube">
+                    <img src="img/yt.svg" alt="YouTube">
+                </a>
+                <a href="https://www.facebook.com/SALMANYURIS/?ref=pages_you_manage" target="_blank" aria-label="Facebook">
+                    <img src="img/fb.svg" alt="Facebook">
+                </a>
+                <a href="https://www.instagram.com/yazxal_/" target="_blank" aria-label="Instagram">
+                    <img src="img/ig.svg" alt="Instagram">
+                </a>
+            </div>
         </div>
-        </center>
-    
-    <!--footer-->
+    </section>
+
+    <!-- Footer -->
     <footer>
         <div class="container">
-            <small>Copyright &copy; 2022 - Salman Yuris Adila Azzami | Mahasiswa SISFO Universitas Dian Nuswantoro Semarang.</small>
+            <small>Copyright &copy; 2022 &ndash; Salman Yuris Adila Azzami | Mahasiswa SISFO Universitas Dian Nuswantoro Semarang.</small>
         </div>
     </footer>
 
