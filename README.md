@@ -7,7 +7,7 @@ Website **Landing Page** sederhana yang dibuat sebagai bagian dari latihan dan t
 
 ## 📌 Tentang Project
 
-**LandingPage-Latihan** adalah project website sederhana yang dibuat sebagai tugas dan latihan dalam mempelajari dasar-dasar pemrograman web. Project ini berfokus pada pembuatan landing page sebagai halaman utama website untuk menyampaikan informasi kepada pengunjung secara singkat, jelas, dan mudah dipahami. Melalui project ini, saya mempelajari dasar pembuatan website, mulai dari menyusun struktur halaman, mengatur tata letak dan tampilan elemen, hingga memastikan website dapat ditampilkan dengan baik pada browser.
+**LandingPage-Latihan** adalah project website landing page yang dibuat sebagai tugas dan latihan dalam mempelajari dasar-dasar pemrograman web. Project ini berfokus pada pembuatan landing page sebagai halaman utama website untuk menyampaikan informasi kepada pengunjung secara singkat, jelas, dan mudah dipahami. Melalui project ini, saya mempelajari dasar pembuatan website, mulai dari menyusun struktur halaman, mengatur tata letak dan tampilan elemen, hingga memastikan website dapat ditampilkan dengan baik pada browser.
 
 ---
 
