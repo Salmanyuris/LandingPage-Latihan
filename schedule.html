@@ -6,31 +6,31 @@
     <meta name="description" content="Jadwal Kuliah Salman Yuris Adila Azzami - Mahasiswa Sistem Informasi Universitas Dian Nuswantoro Semarang.">
     <title>Schedule | Salman Yuris</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
-    <!-- Top Bar Sosial Media -->
+    <!-- Top Bar -->
     <div class="topbar">
         <div class="container">
             <ul class="topbar-list">
-                <li><a href="https://www.facebook.com/SALMANYURIS/?ref=pages_you_manage" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a></li>
-                <li><a href="https://www.youtube.com/channel/UCE_itBvqq4bWp6QGJeRzypw" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a></li>
-                <li><a href="https://www.instagram.com/yazxal_/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://www.facebook.com/SALMANYURIS/?ref=pages_you_manage" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i> Facebook</a></li>
+                <li><a href="https://www.youtube.com/channel/UCE_itBvqq4bWp6QGJeRzypw" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i> YouTube</a></li>
+                <li><a href="https://www.instagram.com/yazxal_/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i> Instagram</a></li>
             </ul>
         </div>
     </div>
 
-    <!-- Navigasi -->
-    <header>
+    <!-- Header -->
+    <header id="main-header">
         <div class="container">
-            <h1><a href="index.html">Salman|Hub</a></h1>
+            <a href="index.html" class="logo">Salman<span style="opacity:0.4">|</span>Hub</a>
             <nav>
                 <ul class="nav-list">
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li class="active"><a href="schedule.html">SCHEDULE</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li class="active"><a href="schedule.html">Schedule</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -39,41 +39,74 @@
     <!-- Breadcrumb -->
     <div class="breadcrumb">
         <div class="container">
-            <p>Home / Schedule</p>
+            <span style="color:var(--clr-text-muted)">Home</span>
+            <span style="margin:0 8px;color:var(--clr-primary-2)">/</span>
+            <span>Schedule</span>
         </div>
     </div>
 
-    <!-- Schedule -->
+    <!-- Schedule Section -->
     <section class="schedule">
         <div class="container">
-            <h3>SCHEDULE</h3>
-            <div class="table-wrapper">
-                <table class="schedule-table">
-                    <thead>
-                        <tr>
-                            <th>HARI</th>
-                            <th>MATA KULIAH</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>SENIN</td>
-                            <td>MANAJEMEN BISNIS</td>
-                        </tr>
-                        <tr>
-                            <td>SELASA</td>
-                            <td>DASAR AKUNTANSI - DASAR KOMPUTASI</td>
-                        </tr>
-                        <tr>
-                            <td>RABU</td>
-                            <td>KONSEP SISTEM INFORMASI</td>
-                        </tr>
-                        <tr>
-                            <td>JUM'AT</td>
-                            <td>KALKULUS</td>
-                        </tr>
-                    </tbody>
-                </table>
+            <div class="section-header reveal">
+                <span class="section-label">Semester Ini</span>
+                <h1 class="section-title">Jadwal Kuliah</h1>
+                <div class="divider"></div>
+                <p class="section-desc" style="margin-top:14px;">
+                    Daftar mata kuliah yang sedang diambil di Universitas Dian Nuswantoro Semarang.
+                </p>
+            </div>
+
+            <div class="schedule-grid">
+                <div class="schedule-card reveal reveal-delay-1">
+                    <div class="schedule-day"><i class="fas fa-calendar-day" style="margin-right:6px;"></i>Senin</div>
+                    <div class="schedule-subjects">
+                        <span class="subject-tag">Manajemen Bisnis</span>
+                    </div>
+                </div>
+
+                <div class="schedule-card reveal reveal-delay-2">
+                    <div class="schedule-day"><i class="fas fa-calendar-day" style="margin-right:6px;"></i>Selasa</div>
+                    <div class="schedule-subjects">
+                        <span class="subject-tag">Dasar Akuntansi</span>
+                        <span class="subject-tag">Dasar Komputasi</span>
+                    </div>
+                </div>
+
+                <div class="schedule-card reveal reveal-delay-3">
+                    <div class="schedule-day"><i class="fas fa-calendar-day" style="margin-right:6px;"></i>Rabu</div>
+                    <div class="schedule-subjects">
+                        <span class="subject-tag">Bahasa Inggris</span>
+                        <span class="subject-tag">KI (Kecerdasan Intelektual)</span>
+                        <span class="subject-tag">Konsep Sistem Informasi</span>
+                    </div>
+                </div>
+
+                <div class="schedule-card reveal reveal-delay-4">
+                    <div class="schedule-day"><i class="fas fa-calendar-day" style="margin-right:6px;"></i>Jum'at</div>
+                    <div class="schedule-subjects">
+                        <span class="subject-tag">Kalkulus</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Summary Card -->
+            <div class="glass-card reveal" style="margin-top:40px;text-align:center;max-width:480px;margin-left:auto;margin-right:auto;">
+                <span class="section-label">Ringkasan Semester</span>
+                <div style="display:flex;justify-content:center;gap:40px;margin-top:16px;flex-wrap:wrap;">
+                    <div>
+                        <div class="stat-number" style="font-size:2rem;">4</div>
+                        <div class="stat-label">Hari Kuliah</div>
+                    </div>
+                    <div>
+                        <div class="stat-number" style="font-size:2rem;">7</div>
+                        <div class="stat-label">Mata Kuliah</div>
+                    </div>
+                    <div>
+                        <div class="stat-number" style="font-size:2rem;">1</div>
+                        <div class="stat-label">Semester</div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -81,9 +114,28 @@
     <!-- Footer -->
     <footer>
         <div class="container">
-            <small>Copyright &copy; 2022 &ndash; Salman Yuris Adila Azzami | Mahasiswa Universitas Dian Nuswantoro Semarang.</small>
+            <div class="footer-logo">Salman|Hub</div>
+            <small>Copyright &copy; 2024 &ndash; Salman Yuris Adila Azzami &middot; Mahasiswa SISFO Udinus Semarang</small>
         </div>
     </footer>
+
+    <script>
+        const header = document.getElementById('main-header');
+        window.addEventListener('scroll', () => {
+            header.classList.toggle('scrolled', window.scrollY > 40);
+        });
+
+        const reveals = document.querySelectorAll('.reveal');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.12 });
+        reveals.forEach(el => observer.observe(el));
+    </script>
 
 </body>
 </html>
