@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
 /* =========================================
    GOOGLE FONTS
    ========================================= */
@@ -69,6 +71,7 @@ body::before {
 a {
     color: inherit;
     text-decoration: none;
+    transition: var(--transition);
 }
 
 ul { list-style: none; }
@@ -198,7 +201,6 @@ header .container {
     transition: transform var(--transition);
 }
 
-.nav-list li a:hover,
 .nav-list li.active a {
     color: var(--clr-white);
     background: var(--clr-bg-card);
@@ -987,6 +989,7 @@ footer small {
     .logo { padding: 10px 0; }
 
     .nav-list {
+        margin-top: 15px;
         flex-wrap: wrap;
         gap: 2px;
         padding-bottom: 8px;
