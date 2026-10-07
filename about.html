@@ -6,31 +6,31 @@
     <meta name="description" content="About Salman Yuris Adila Azzami - Mahasiswa Sistem Informasi Universitas Dian Nuswantoro Semarang.">
     <title>About | Salman Yuris</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
-    <!-- Top Bar Sosial Media -->
+    <!-- Top Bar -->
     <div class="topbar">
         <div class="container">
             <ul class="topbar-list">
-                <li><a href="https://www.facebook.com/SALMANYURIS/?ref=pages_you_manage" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a></li>
-                <li><a href="https://www.youtube.com/channel/UCE_itBvqq4bWp6QGJeRzypw" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a></li>
-                <li><a href="https://www.instagram.com/yazxal_/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://www.facebook.com/SALMANYURIS/?ref=pages_you_manage" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i> Facebook</a></li>
+                <li><a href="https://www.youtube.com/channel/UCE_itBvqq4bWp6QGJeRzypw" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i> YouTube</a></li>
+                <li><a href="https://www.instagram.com/yazxal_/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i> Instagram</a></li>
             </ul>
         </div>
     </div>
 
-    <!-- Navigasi -->
-    <header>
+    <!-- Header -->
+    <header id="main-header">
         <div class="container">
-            <h1><a href="index.html">Sayuaza|Hub</a></h1>
+            <a href="index.html" class="logo">Salman<span style="opacity:0.4">|</span>Hub</a>
             <nav>
                 <ul class="nav-list">
-                    <li><a href="index.html">HOME</a></li>
-                    <li class="active"><a href="about.html">ABOUT</a></li>
-                    <li><a href="schedule.html">SCHEDULE</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><a href="about.html">About</a></li>
+                    <li><a href="schedule.html">Schedule</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -39,28 +39,87 @@
     <!-- Breadcrumb -->
     <div class="breadcrumb">
         <div class="container">
-            <p>Home / About</p>
+            <span style="color:var(--clr-text-muted)">Home</span>
+            <span style="margin:0 8px;color:var(--clr-primary-2)">/</span>
+            <span>About</span>
         </div>
     </div>
 
-    <!-- About -->
+    <!-- About Section -->
     <section class="about">
         <div class="container">
-            <h3>ABOUT</h3>
-            <p>
-                Hello, everyone! My name is <strong>Salman Yuris Adila Azzami</strong>, and I'm from Tegal, Central Java.
-                I am currently enrolled in Dian Nuswantoro University in Semarang, in the Faculty of Computer Science's
-                Information Systems Study Program. <strong>Dian Nuswantoro University</strong> is Central Java's best
-                private university, with an A+ rating.
-            </p>
+            <div class="about-grid">
+                <div class="about-text reveal">
+                    <span class="section-label">About Me</span>
+                    <h1 class="section-title">Salman Yuris<br>Adila Azzami</h1>
+                    <p>
+                        Hello, everyone! My name is <strong>Salman Yuris Adila Azzami</strong>, and I'm from Tegal, Central Java.
+                        I am currently enrolled in Dian Nuswantoro University in Semarang, in the Faculty of Computer Science's
+                        Information Systems Study Program.
+                    </p>
+                    <p>
+                        <strong>Dian Nuswantoro University</strong> is Central Java's best private university, with an A+ rating.
+                        I'm passionate about technology, web development, and building meaningful digital experiences.
+                    </p>
+                    <div style="display:flex;gap:12px;margin-top:24px;flex-wrap:wrap;">
+                        <a href="contact.html" class="btn-primary"><i class="fas fa-envelope"></i> Hubungi Saya</a>
+                        <a href="schedule.html" class="btn-outline"><i class="fas fa-calendar"></i> Lihat Jadwal</a>
+                    </div>
+                </div>
+                <div class="about-stats reveal reveal-delay-1">
+                    <div class="stat-card">
+                        <div class="stat-number">UDINUS</div>
+                        <div class="stat-label">University</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">A+</div>
+                        <div class="stat-label">Rating Akreditasi</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">SI</div>
+                        <div class="stat-label">Sistem Informasi</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">Tegal</div>
+                        <div class="stat-label">Asal Daerah</div>
+                    </div>
+                </div>
+            </div>
 
-            <div class="education">
-                <h3>EDUCATION</h3>
+            <!-- Education Timeline -->
+            <div style="margin-top:64px;" class="reveal">
+                <span class="section-label">Background</span>
+                <h2 class="section-title">Riwayat Pendidikan</h2>
+                <div class="divider" style="margin:16px 0 32px;"></div>
                 <ul class="education-list">
-                    <li>MI Sinar Islam</li>
-                    <li>MTS Al-Muawanah Harjawinangun</li>
-                    <li>SMA Negeri 1 Balapulang</li>
-                    <li>Universitas Dian Nuswantoro Semarang</li>
+                    <li class="edu-item reveal reveal-delay-1">
+                        <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+                        <div class="edu-info">
+                            <h5>MI Sinar Islam Cenggini</h5>
+                            <span>Pendidikan Dasar &middot; Tegal</span>
+                        </div>
+                    </li>
+                    <li class="edu-item reveal reveal-delay-2">
+                        <div class="edu-icon"><i class="fas fa-school"></i></div>
+                        <div class="edu-info">
+                            <h5>MTS Al-Muawanah Harjawinangun</h5>
+                            <span>Pendidikan Menengah Pertama &middot; Tegal</span>
+                        </div>
+                    </li>
+                    <li class="edu-item reveal reveal-delay-3">
+                        <div class="edu-icon"><i class="fas fa-university"></i></div>
+                        <div class="edu-info">
+                            <h5>SMA Negeri 1 Balapulang</h5>
+                            <span>Pendidikan Menengah Atas &middot; Tegal</span>
+                        </div>
+                    </li>
+                    <li class="edu-item reveal reveal-delay-4">
+                        <div class="edu-icon"><i class="fas fa-laptop-code"></i></div>
+                        <div class="edu-info">
+                            <h5>Universitas Dian Nuswantoro Semarang</h5>
+                            <span>S1 Sistem Informasi &middot; Semarang &middot; Aktif</span>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -69,9 +128,28 @@
     <!-- Footer -->
     <footer>
         <div class="container">
-            <small>Copyright &copy; 2022 &ndash; Salman Yuris Adila Azzami | Mahasiswa Universitas Dian Nuswantoro Semarang.</small>
+            <div class="footer-logo">Salman|Hub</div>
+            <small>Copyright &copy; 2024 &ndash; Salman Yuris Adila Azzami &middot; Mahasiswa SISFO Udinus Semarang</small>
         </div>
     </footer>
+
+    <script>
+        const header = document.getElementById('main-header');
+        window.addEventListener('scroll', () => {
+            header.classList.toggle('scrolled', window.scrollY > 40);
+        });
+
+        const reveals = document.querySelectorAll('.reveal');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.12 });
+        reveals.forEach(el => observer.observe(el));
+    </script>
 
 </body>
 </html>
