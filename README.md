@@ -1,59 +1,66 @@
 # 🌐 LandingPage-Latihan
 
-Website **Landing Page** sederhana yang dibuat sebagai bagian dari latihan dan tugas dasar pemrograman web. Project ini bertujuan untuk mempraktikkan konsep dasar pengembangan website menggunakan teknologi frontend seperti **HTML dan CSS**, mulai dari menyusun struktur halaman, mengatur tata letak, hingga membuat tampilan website yang sederhana dan responsif.
-
+Website **Landing Page** sederhana yang dibangun menggunakan **HTML dan CSS**. Project ini merupakan implementasi dari konsep dasar pengembangan antarmuka web (frontend), mulai dari penyusunan kerangka halaman hingga pengaturan tata letak yang responsif.
 
 ---
 
 ## 📌 Tentang Project
 
-**LandingPage-Latihan** adalah project website landing page yang dibuat sebagai tugas dan latihan dalam mempelajari dasar-dasar pemrograman web. Project ini berfokus pada pembuatan landing page sebagai halaman utama website untuk menyampaikan informasi kepada pengunjung secara singkat, jelas, dan mudah dipahami. Melalui project ini, saya mempelajari dasar pembuatan website, mulai dari menyusun struktur halaman, mengatur tata letak dan tampilan elemen, hingga memastikan website dapat ditampilkan dengan baik pada browser.
+**LandingPage-Latihan** difokuskan pada pembuatan halaman utama website yang berfungsi untuk menyampaikan informasi secara singkat, jelas, dan menarik. Melalui project ini, saya mendalami proses *end-to-end* pembuatan antarmuka web statis. Fokus utama pembelajaran mencakup penulisan kode yang semantik, eksplorasi sistem *layouting*, serta memastikan website dapat dirender dengan baik di berbagai browser.
 
 ---
 
-## 🎯 Tujuan Project
+## 🎯 Tujuan Pembelajaran
 
-Project ini dibuat dengan beberapa tujuan pembelajaran, yaitu:
+Project ini dikembangkan untuk mencapai beberapa target pembelajaran berikut:
 
-- Memahami struktur dasar dokumen HTML.
-- Memahami penggunaan semantic HTML.
-- Mempelajari penggunaan CSS.
-- Memahami konsep layout pada website.
-- Mengatur warna, ukuran, jarak, dan posisi elemen.
-- Membuat halaman landing page sederhana.
-- Menghubungkan file HTML dengan CSS.
-- Mempelajari dasar-dasar responsive web design.
-- Membiasakan penggunaan struktur folder project yang rapi.
-- Mempraktikkan proses pembuatan website dari awal hingga dapat dijalankan di browser.
+- Memahami struktur dasar dan hierarki dokumen HTML5.
+- Menerapkan *Semantic HTML* untuk aksesibilitas dan SEO yang lebih baik.
+- Mempelajari styling dasar dan *box model* menggunakan CSS3.
+- Menguasai konsep *layouting* (seperti Flexbox/Grid atau Positioning).
+- Mengatur tipografi, warna, jarak (*margin/padding*), dan tata letak elemen.
+- Mengimplementasikan dasar-dasar *Responsive Web Design* (RWD).
+- Membiasakan pengorganisasian struktur folder project yang rapi dan standar.
 
 ---
 
 ## ✨ Fitur
 
-Beberapa fitur yang terdapat atau dapat diterapkan pada landing page ini antara lain:
+Beberapa fitur dan komponen utama yang terdapat pada landing page ini:
 
-- 🏠 Halaman utama / landing page.
-- 🎨 Tampilan antarmuka sederhana.
-- 📱 Layout yang dapat dikembangkan menjadi responsive.
-- 🧭 Navigasi halaman.
-- 📝 Section informasi.
-- 🔘 Button atau call-to-action.
-- 🖼️ Elemen visual untuk memperjelas informasi.
-- 💻 Dibuat menggunakan teknologi frontend dasar.
-- ⚡ Tidak membutuhkan backend atau database.
+- 🏠 **Hero Section:** Bagian utama (*landing*) yang menyambut pengunjung.
+- 🎨 **UI Sederhana:** Tampilan antarmuka yang bersih (*clean design*).
+- 📱 **Mobile-Friendly:** Struktur *layout* yang dirancang siap untuk diadaptasi ke berbagai ukuran layar.
+- 🧭 **Navigasi:** Menu sederhana untuk mempermudah akses informasi.
+- 📝 **Informasi Terstruktur:** *Section* konten yang dibagi secara logis.
+- 🔘 **Call-to-Action (CTA):** Tombol interaktif untuk mengarahkan pengguna.
+- 💻 **Pure Frontend:** Berjalan mandiri tanpa memerlukan backend atau database.
 
 ---
 
 ## 🛠️ Teknologi yang Digunakan
 
-Project ini dibuat menggunakan teknologi dasar web development:
+| Teknologi | Fungsi Utama |
+| :--- | :--- |
+| **HTML5** | Membuat kerangka, struktur, dan konten semantic halaman |
+| **CSS3** | Mengatur gaya visual, tata letak, dan responsivitas website |
+| **Web Browser** | Menjalankan dan me-render hasil kode (Chrome, Firefox, dll) |
 
-| Teknologi | Kegunaan |
-|---|---|
-| HTML5 | Membuat struktur dan konten halaman |
-| CSS3 | Mengatur tampilan dan layout website |
-| Browser | Menjalankan dan menampilkan website |
+*(Catatan: JavaScript dapat ditambahkan pada iterasi pengembangan berikutnya untuk memberikan interaksi dinamis tingkat lanjut).*
 
-Jika pada pengembangan berikutnya ditambahkan JavaScript, maka JavaScript dapat digunakan untuk memberikan interaksi dan perilaku dinamis pada halaman.
+---
 
+## 🚀 Cara Menjalankan Project
+
+Karena project ini adalah web statis, Anda dapat menjalankannya dengan sangat mudah tanpa perlu instalasi *server* khusus:
+
+1. Unduh atau *clone* repository ini:
+   ```bash
+   git clone https://github.com/Salmanyuris/LandingPage-Latihan.git
+   ```
+2. Buka folder project hasil unduhan.
+3. Klik dua kali pada file `index.html` untuk membukanya langsung di *browser* bawaan Anda.
+4. *(Opsional)* Jika Anda menggunakan VS Code, Anda bisa menggunakan ekstensi **Live Server** untuk pengalaman *development* yang lebih baik.
+
+---
 
