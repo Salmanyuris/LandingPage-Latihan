@@ -6,7 +6,7 @@ Website **Landing Page** sederhana yang dibangun menggunakan **HTML dan CSS**. P
 
 ## 📌 Tentang Project
 
-**LandingPage-Latihan** difokuskan pada pembuatan halaman utama website yang berfungsi untuk menyampaikan informasi secara singkat, jelas, dan menarik. Melalui project ini, saya mendalami proses *end-to-end* pembuatan antarmuka web statis. Fokus utama pembelajaran mencakup penulisan kode yang semantik, eksplorasi sistem *layouting*, serta memastikan website dapat dirender dengan baik di berbagai browser.
+**LandingPage-Latihan** ini dibuat karena untuk belajar mengembangkan halaman utama website yang berfungsi untuk menyampaikan informasi secara singkat, jelas, dan menarik. Melalui project ini, saya mendalami proses *end-to-end* pembuatan antarmuka web statis. Fokus utama pembelajaran mencakup penulisan kode yang semantik, eksplorasi sistem *layouting*, serta memastikan website dapat dirender dengan baik di berbagai browser.
 
 ---
 
