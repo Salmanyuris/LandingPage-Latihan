@@ -30,9 +30,8 @@
     --transition:      0.35s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* =========================================
-   RESET & BASE
-   ========================================= */
+#Resetbase
+
 *, *::before, *::after {
     margin: 0;
     padding: 0;
@@ -51,7 +50,7 @@ body {
     overflow-x: hidden;
 }
 
-/* Animated background grid */
+#Animasi Background Grid
 body::before {
     content: '';
     position: fixed;
