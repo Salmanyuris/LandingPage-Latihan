@@ -530,9 +530,7 @@ section {
     font-family: var(--font-mono);
 }
 
-/* =========================================
-   SCHEDULE
-   ========================================= */
+/* SCHEDULE */
 .schedule {
     background: var(--clr-bg);
 }
@@ -605,9 +603,7 @@ section {
     flex-shrink: 0;
 }
 
-/* =========================================
-   SKILLS / THEORY
-   ========================================= */
+/* SKILLS / THEORY */
 .skills {
     background: var(--clr-bg-2);
 }
