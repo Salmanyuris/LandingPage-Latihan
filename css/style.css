@@ -72,17 +72,13 @@ ul { list-style: none; }
 
 img { max-width: 100%; }
 
-/* =========================================
-   LAYOUT
-   ========================================= */
+/* Layout */
 .container {
     width: min(90%, 1100px);
     margin: 0 auto;
 }
 
-/* =========================================
-   SCROLLBAR
-   ========================================= */
+/* Schrollbar */
 ::-webkit-scrollbar { width: 6px; }
 ::-webkit-scrollbar-track { background: var(--clr-bg); }
 ::-webkit-scrollbar-thumb {
@@ -90,9 +86,7 @@ img { max-width: 100%; }
     border-radius: 99px;
 }
 
-/* =========================================
-   TOP BAR
-   ========================================= */
+/* Topbar */
 .topbar {
     padding: 8px 0;
     background: rgba(10,10,15,0.95);
