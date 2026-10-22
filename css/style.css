@@ -120,9 +120,7 @@ img { max-width: 100%; }
     color: var(--clr-primary-2);
 }
 
-/* =========================================
-   HEADER & NAVIGATION
-   ========================================= */
+/* Header Navigasi */
 header {
     background: rgba(10,10,15,0.85);
     backdrop-filter: blur(20px);
@@ -199,9 +197,7 @@ header .container {
     transform: translateX(-50%) scaleX(1);
 }
 
-/* =========================================
-   BREADCRUMB
-   ========================================= */
+/* BREADCRUMB */
 .breadcrumb {
     padding: 10px 0;
     background: var(--clr-bg-2);
@@ -215,9 +211,7 @@ header .container {
 
 .breadcrumb span { color: var(--clr-primary-2); }
 
-/* =========================================
-   BANNER / HERO
-   ========================================= */
+/* BANNER / HERO */
 .banner {
     min-height: 70vh;
     position: relative;
