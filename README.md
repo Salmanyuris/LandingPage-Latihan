@@ -1,66 +1,104 @@
 # 🌐 LandingPage-Latihan
 
-Website **Landing Page** sederhana yang dibangun menggunakan **HTML dan CSS**. Project ini merupakan implementasi dari konsep dasar pengembangan antarmuka web (frontend), mulai dari penyusunan kerangka halaman hingga pengaturan tata letak yang responsif.
+Website **landing page sederhana** yang dikembangkan menggunakan HTML5 dan CSS3. Project ini merupakan implementasi pembelajaran dasar pengembangan antarmuka web (*frontend*), mulai dari penyusunan struktur halaman hingga pengaturan tata letak dan tampilan website.
 
 ---
 
 ## 📌 Tentang Project
 
-**LandingPage-Latihan** ini dibuat karena untuk belajar mengembangkan halaman utama website yang berfungsi untuk menyampaikan informasi secara singkat, jelas, dan menarik. Melalui project ini, saya mendalami proses *end-to-end* pembuatan antarmuka web statis. Fokus utama pembelajaran mencakup penulisan kode yang semantik, eksplorasi sistem *layouting*, serta memastikan website dapat dirender dengan baik di berbagai browser.
+**LandingPage-Latihan** merupakan project pembelajaran yang dibuat untuk memahami proses pengembangan halaman web statis yang informatif, terstruktur, dan menarik.
+
+Melalui project ini, saya mempelajari dasar-dasar pembuatan antarmuka web, mulai dari penulisan struktur HTML, penerapan styling menggunakan CSS, pengaturan posisi elemen, hingga memastikan halaman dapat ditampilkan dengan baik melalui web browser.
+
+Project ini juga menjadi sarana untuk melatih keterampilan dasar dalam membangun dan mengorganisasi sebuah website.
 
 ---
 
 ## 🎯 Tujuan Pembelajaran
 
-Project ini dikembangkan untuk mencapai beberapa target pembelajaran berikut:
+Project ini dikembangkan untuk mempelajari beberapa konsep dasar pengembangan web, antara lain:
 
-- Memahami struktur dasar dan hierarki dokumen HTML5.
-- Menerapkan *Semantic HTML* untuk aksesibilitas dan SEO yang lebih baik.
-- Mempelajari styling dasar dan *box model* menggunakan CSS3.
-- Menguasai konsep *layouting* (seperti Flexbox/Grid atau Positioning).
-- Mengatur tipografi, warna, jarak (*margin/padding*), dan tata letak elemen.
-- Mengimplementasikan dasar-dasar *Responsive Web Design* (RWD).
-- Membiasakan pengorganisasian struktur folder project yang rapi dan standar.
+- Memahami struktur dan hierarki dokumen HTML5.
+- Menerapkan *Semantic HTML* untuk menyusun konten secara terstruktur.
+- Memahami CSS3, termasuk styling dan konsep *box model*.
+- Mempelajari pengaturan tata letak menggunakan teknik *layouting*.
+- Mengatur tipografi, warna, margin, padding, dan posisi elemen.
+- Memahami dasar-dasar *Responsive Web Design* (RWD).
+- Membiasakan diri mengorganisasi file dan folder project secara terstruktur.
+- Memahami proses rendering halaman web melalui berbagai browser.
 
 ---
 
-## ✨ Fitur
+## ✨ Fitur dan Komponen
 
-Beberapa fitur dan komponen utama yang terdapat pada landing page ini:
+Beberapa komponen utama yang menjadi bagian dari project ini meliputi:
 
-- 🏠 **Hero Section:** Bagian utama (*landing*) yang menyambut pengunjung.
-- 🎨 **UI Sederhana:** Tampilan antarmuka yang bersih (*clean design*).
-- 📱 **Mobile-Friendly:** Struktur *layout* yang dirancang siap untuk diadaptasi ke berbagai ukuran layar.
-- 🧭 **Navigasi:** Menu sederhana untuk mempermudah akses informasi.
-- 📝 **Informasi Terstruktur:** *Section* konten yang dibagi secara logis.
-- 🔘 **Call-to-Action (CTA):** Tombol interaktif untuk mengarahkan pengguna.
-- 💻 **Pure Frontend:** Berjalan mandiri tanpa memerlukan backend atau database.
+- 🏠 **Hero Section** — Bagian utama halaman untuk menampilkan informasi pembuka.
+- 🎨 **Simple UI Design** — Tampilan antarmuka sederhana dan terstruktur.
+- 📱 **Responsive Layout** — Dasar pengaturan tata letak untuk berbagai ukuran layar.
+- 🧭 **Navigation Menu** — Menu navigasi untuk memudahkan pengguna berpindah halaman atau bagian.
+- 📝 **Structured Content** — Penyusunan konten ke dalam beberapa bagian yang terorganisasi.
+- 🔘 **Call-to-Action (CTA)** — Elemen tombol untuk mengarahkan pengguna ke tindakan tertentu.
+- 💻 **Static Website** — Website berbasis frontend yang dapat dijalankan tanpa backend atau database.
 
 ---
 
 ## 🛠️ Teknologi yang Digunakan
 
-| Teknologi | Fungsi Utama |
-| :--- | :--- |
-| **HTML5** | Membuat kerangka, struktur, dan konten semantic halaman |
-| **CSS3** | Mengatur gaya visual, tata letak, dan responsivitas website |
-| **Web Browser** | Menjalankan dan me-render hasil kode (Chrome, Firefox, dll) |
-
-*(Catatan: JavaScript dapat ditambahkan pada iterasi pengembangan berikutnya untuk memberikan interaksi dinamis tingkat lanjut).*
+| Teknologi | Fungsi |
+|---|---|
+| **HTML5** | Menyusun struktur dan konten halaman web. |
+| **CSS3** | Mengatur tampilan visual, styling, dan tata letak. |
+| **Web Browser** | Menampilkan dan menjalankan halaman web. |
+| **Visual Studio Code** *(opsional)* | Editor kode untuk pengembangan website. |
 
 ---
 
 ## 🚀 Cara Menjalankan Project
 
-Karena project ini adalah web statis, Anda dapat menjalankannya dengan sangat mudah tanpa perlu instalasi *server* khusus:
+Project ini merupakan website statis sehingga dapat dijalankan langsung melalui web browser tanpa memerlukan server backend.
 
-1. Unduh atau *clone* repository ini:
+1. Clone repository:
+
    ```bash
    git clone https://github.com/Salmanyuris/LandingPage-Latihan.git
    ```
-2. Buka folder project hasil unduhan.
-3. Klik dua kali pada file `index.html` untuk membukanya langsung di *browser* bawaan Anda.
-4. *(Opsional)* Jika Anda menggunakan VS Code, Anda bisa menggunakan ekstensi **Live Server** untuk pengalaman *development* yang lebih baik.
+
+2. Masuk ke direktori project:
+
+   ```bash
+   cd LandingPage-Latihan
+   ```
+
+3. Buka file `index.html` menggunakan web browser.
+
+4. *(Opsional)* Gunakan Visual Studio Code dengan ekstensi **Live Server** untuk menjalankan website selama proses pengembangan.
 
 ---
 
+## 📂 Struktur Project
+
+```text
+LandingPage-Latihan/
+├── index.html
+├── css/
+│   └── style.css
+└── README.md
+```
+
+*Catatan: Struktur folder di atas merupakan contoh. Sesuaikan dengan struktur file aktual dalam repository.*
+
+---
+
+## 👨‍💻 Author
+
+**Salman Yuris Adila Azzami**
+
+- GitHub: [@Salmanyuris](https://github.com/Salmanyuris)
+- Repository: [LandingPage-Latihan](https://github.com/Salmanyuris/LandingPage-Latihan)
+
+---
+
+## 📄 Lisensi
+
+Project ini dibuat untuk tujuan pembelajaran dan pengembangan keterampilan dasar frontend.
